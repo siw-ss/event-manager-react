@@ -1,0 +1,283 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h1{
+  font-family: monospace,cursive;
+}
+
+.Homepage p{
+  color: white;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.eventsDisplay{
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.admin-links{
+  margin-right: 500px;
+}
+
+.event{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin: 20px;
+  background-color: white;
+}
+
+.event-img{
+  width: 100%;
+  height: 200px;
+  background-color: #555;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.event-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.event-admin img{
+  width: 100%;
+  object-fit: cover;
+  margin-top: 12px;
+}
+
+/* Style the card content */
+.content {
+  padding: 10px;
+}
+/* Style the card title */
+.title {
+  color: black;
+  font-size: 20px;
+}
+/* Style the card description */
+.description, .date {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Style the card button */
+.Homepage button {
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+/* Style the card button */
+.event-admin button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  padding: 2px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.event-admin button:hover {
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  padding: 2px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.event-admin input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px black solid;
+  width: 50%;
+  padding: 8px;
+  font-size: 14px;
+  color: black;
+  
+}
+/* Style the button */
+.admin-links button{
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 20px;
+}
+/* Style the button */
+.delete{
+  background-color: white !important;
+  color: red !important;
+  margin-top: 20px !important;
+}
+.delete:hover{
+  border: none !important;
+  background-color: red !important;
+  color: white !important;
+  margin-top: 20px !important;
+}
+
+.admin-links{
+  align-items: center;
+}
+.Homepage button:hover ,.admin-links button:hover{
+  background-color: white;
+  color: #000;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+.Navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.event-admin{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  
+}
+
+.event-admin h1{
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: start !important;
+}
+
+.dashboard-title{
+  font-size: 30px;
+}
+
+.Bttn{
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+
+.Bttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+ 
+
+.event img {
+  width: 400px;
+}
+
+.event .description {
+  text-align: center;
+}
+
+.event:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.Login{
+  background-color:#fec89a ;
+  padding: 100px;
+  margin:100px;
+  border-radius: 20px;
+}
+
+.Login input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px black solid;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  color: black;
+  
+}
+
+.Login button{
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.Login button:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.Login a{
+  color: black;
+}
+.Login a:hover{
+  color: white;
+}
