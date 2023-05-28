@@ -44,5 +44,22 @@ And `MongoDB`, `Express`, `Node` for **back-end development**
         Just like regular react project use this to create default react files
   
 ### Screenshots
-
+    The login page
 ![image](/screenshots/LogIn.png)
+
+    You must Register first
+    PS: This app is open to add your security and authetication methods
+![image](/screenshots/Register.png)
+
+    Once logged in you'll access this Homepage
+![image](/screenshots/Homepage.png)
+
+    You can choose events to add temporarily to the list cart below
+![image](/screenshots/Homepage-2.png)
+
+    If you have admin acces (set from the database as one variable)
+    You'll be redirected to the Dashboard instead of homepage where you can modify fields of existing events or delete them
+![image](/screenshots/Dashboard.png)
+
+    You can then add you own event
+![image](/screenshots/AddEvent.png)
